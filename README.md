@@ -68,7 +68,7 @@
   
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合
-  - 实践任务：阅读论文[Neural-Symbolic Concept learner](https://arxiv.org/abs/1904.12584)论文，并在Clevr数据集中实现
+  - 实践任务：阅读论文[Neural-Symbolic Concept learner](https://arxiv.org/abs/1904.12584)，并在Clevr数据集中实现
   
 
 ## Stage 3：综述论文
