@@ -17,18 +17,18 @@
    2. 理解诸如残差连接、注意力机制、位置编码等核心思想
    3. 参考资料：
       1. 《动手学深度学习》中的相关内容
-      1. Happy-LLM 第二章：https://datawhalechina.github.io/happy-llm/ 
+      1. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
       2. Andrej Karpathy 课程关于Transformer与LLM部分
-5. 实践任务：基于Pytorch手动搭建Transformer模型
-   
+5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型，实现一个小型LLM的预训练
+
 ### 3. 大语言模型实践
 1. 掌握GPT系列、LLaMA系列大语言模型架构
-2. 掌握大语言模型的常用微调算法，例如SFT、LoRA、PPO/DPO/GRPO等
+2. 掌握大语言模型的常用微调算法，例如LoRA、SFT、PPO/DPO/GRPO等
 3. 参考资料：
     1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
     2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
     3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-4. 实践任务：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的微调与评测
+4. 实践任务：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的微调与评测（例如司法、金融、数学等），尝试使用不同的微调算法，并进行结果分析
 
 ### 4. Vision Transformer (ViT)
   1. 掌握Vision Transformer (ViT)的基本原理
@@ -59,6 +59,8 @@
       - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
       - 具身规划：[Mini-Behavior](https://arxiv.org/abs/2310.01824)，[ViPlan](https://arxiv.org/pdf/2505.13180)，[Embodied-Bench](https://arxiv.org/pdf/2502.09560)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
+     
+        
 
 ## Stage 2：神经符号基础
 ### 1. 逻辑与符号推理基础
@@ -67,8 +69,10 @@
   - 参考资料：AIMA对应章节
   
 ### 2. 神经符号推理基础
-  - 学习如何将神经网络与符号推理结合
+  - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务：阅读论文[Neural-Symbolic Concept learner](https://arxiv.org/abs/1904.12584)，并在Clevr数据集中实现
+  - 实践任务：阅读论文[Learning Adaptive Planning Representations with Natural Language Guidance](https://arxiv.org/pdf/2312.08566),并在Mini Mincraft环境中实现
+
   
 
 ## Stage 3：综述论文
