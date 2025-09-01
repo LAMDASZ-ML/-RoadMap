@@ -64,14 +64,14 @@
 
 ## Stage 2：神经符号基础
 ### 1. 逻辑与符号推理基础
-  - 理解命题逻辑与一阶逻辑，掌握基本推理方法
+  - 理解命题逻辑与一阶逻辑，掌握基本逻辑推理方法，了解Prolog语言
   - 了解PDDL语言，能够调用规划求解器完成经典规划任务求解，例如积木世界BlocksWorld
   - 参考资料：AIMA对应章节
   
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务：阅读论文[Neural-Symbolic Concept learner](https://arxiv.org/abs/1904.12584)，并在Clevr数据集中实现
-  - 实践任务：阅读论文[Learning Adaptive Planning Representations with Natural Language Guidance](https://arxiv.org/pdf/2312.08566),并在Mini Mincraft环境中实现
+  - 实践任务：阅读论文[Learning Adaptive Planning Representations with Natural Language Guidance](https://arxiv.org/pdf/2312.08566)，并在Mini Mincraft环境中实现
 
   
 
