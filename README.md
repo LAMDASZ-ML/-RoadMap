@@ -19,7 +19,7 @@
       1. 《动手学深度学习》中的相关内容
       1. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
       2. Andrej Karpathy 课程关于Transformer与LLM部分
-5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型，实现一个小型LLM的预训练
+5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型
 
 ### 3. 大语言模型实践
 1. 掌握GPT系列、LLaMA系列大语言模型架构
@@ -28,21 +28,21 @@
     1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
     2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
     3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-4. 实践任务：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的微调与评测（例如司法、金融、数学等），尝试使用不同的微调算法，并进行结果分析
+4. 实践任务：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的有监督微调与评测（例如司法、金融、数学等，相应数据集可自行搜索）
 
 ### 4. Vision Transformer (ViT)
   1. 掌握Vision Transformer (ViT)的基本原理
   2. 参考资料：
       1. ViT论文：https://arxiv.org/abs/2010.11929
       2. 参考代码库：https://github.com/lucidrains/vit-pytorch
-   3. 实践任务：基于Pytorch构建ViT模型，尝试在Image-Net子集上训练/微调与评测
+   3. 实践任务：基于Pytorch构建ViT模型，尝试在一个图像分类数据集，例如Image-Net子集，中进行训练/微调与评测
 
 ### 5. 视觉语言模型CLIP
   1. 掌握基础视觉-语言模型CLIP的基本原理
   2. 参考资料：
      1. CLIP论文：https://arxiv.org/abs/2103.00020
      2. 官方代码：https://github.com/openai/CLIP
-  4. 实践任务：基于CLIP完成一个图像分类数据集的分类任务，例如ImageNet，并尝试替换不同的encoder，并对比分析结果
+  4. 实践任务：基于预训练的CLIP完成一个图像分类数据集的分类任务，例如ImageNet，尝试替换不同的encoder，并对比分析结果
 
 ### 6. 多模态大模型前沿
   1. 掌握LLaVA、Qwen-VL系列前沿多模态大模型架构，了解并追踪其他常用多模态大模型架构
