@@ -64,7 +64,7 @@
       - 具身规划：[Mini-Behavior](https://arxiv.org/abs/2310.01824), [ViPlan](https://arxiv.org/pdf/2505.13180), [Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
         
-南大本校同学完成Stage 1后即可进一步交流方向。
+有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
 
 ## Stage 2：神经符号基础
 ### 1. 逻辑与符号推理基础
