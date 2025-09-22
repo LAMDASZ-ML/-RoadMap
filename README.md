@@ -10,6 +10,7 @@
   3. 参考资料：
      1. 李沐，[动手学深度学习](https://zh.d2l.ai/)
      2. Andrej Karpathy，[Neural Networks:Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+     3. [Pytorch Tutorial](https://docs.pytorch.org/tutorials/intro.html)
   4. 实践任务：基于PyTorch 从零实现一个简单的多层感知机 (MLP)，完成 MNIST 手写数字分类任务
    
 ### 2. 常见深度神经网络架构
@@ -28,7 +29,7 @@
     1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
     2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
     3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-4. 实践任务：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的有监督微调与评测（例如司法、金融、数学等，相应数据集可自行搜索）
+4. 实践任务【非必须，了解相应框架即可】：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的有监督微调与评测（例如司法、金融、数学等，相应数据集可自行搜索）
 
 ### 4. Vision Transformer (ViT)
   1. 掌握Vision Transformer (ViT)的基本原理
@@ -54,13 +55,16 @@
    4. 实践任务：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
    5. 常用数据集示例
       - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
-      - 视觉问答推理：[V* Bench](https://vstar-seal.github.io/)，[RSVQA](https://arxiv.org/abs/2003.07333)，[VisuLogic](https://arxiv.org/pdf/2504.15279)，[LogicVista](https://arxiv.org/pdf/2407.04973)，[ARC-AGI](https://arcprize.org/arc-agi)
-      - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
+      - 视觉问答推理：
+        - 高分辨率视觉问答：[V* Bench](https://vstar-seal.github.io/)
+        - 遥感图像问答：[RSVQA](https://arxiv.org/abs/2003.07333)
+        - 逻辑推理图像问答：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
+        - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
       - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
-      - 具身规划：[Mini-Behavior](https://arxiv.org/abs/2310.01824)，[ViPlan](https://arxiv.org/pdf/2505.13180)，[Embodied-Bench](https://arxiv.org/pdf/2502.09560)
+      - 具身规划：[Mini-Behavior](https://arxiv.org/abs/2310.01824), [ViPlan](https://arxiv.org/pdf/2505.13180), [Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
-     
         
+南大本校同学完成Stage 1后即可进一步交流方向。
 
 ## Stage 2：神经符号基础
 ### 1. 逻辑与符号推理基础
