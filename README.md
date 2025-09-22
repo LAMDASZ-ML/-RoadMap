@@ -36,7 +36,7 @@
   2. 参考资料：
       1. ViT论文：https://arxiv.org/abs/2010.11929
       2. 参考代码库：https://github.com/lucidrains/vit-pytorch
-   3. 实践任务：基于Pytorch构建ViT模型，尝试在一个图像分类数据集，例如Image-Net子集，中进行训练/微调与评测
+   3. 实践任务：基于Pytorch构建ViT模型，尝试面向一个图像分类任务，例如Image-Net子集、CIFAR-10等，进行训练/微调与评测
 
 ### 5. 视觉语言模型CLIP
   1. 掌握基础视觉-语言模型CLIP的基本原理
