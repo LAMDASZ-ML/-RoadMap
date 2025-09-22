@@ -1,6 +1,6 @@
 # 新同学进组学习指南-大模型/多模态推理与规划
 
-### 请注意，并非所有的任务都要逐一完成，如果你觉得对于你来说过于简单，可以直接跳过~
+### 请注意，并非所有的任务都要逐一完成，仅任务6为必须，如果你觉得对于你来说过于简单，可以直接跳过~
 
 ## Stage 1：基础知识
 
@@ -20,7 +20,7 @@
       1. 《动手学深度学习》中的相关内容
       1. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
       2. Andrej Karpathy 课程关于Transformer与LLM部分
-5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型
+5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型，无需完成训练，了解Transformer如何通过代码构建即可
 
 ### 3. 大语言模型实践
 1. 掌握GPT系列、LLaMA系列大语言模型架构
@@ -52,7 +52,7 @@
      1. LLaVA论文：https://arxiv.org/abs/2304.08485
      2. Qwen2.5-VL Technical Report：https://arxiv.org/abs/2502.13923
      3. 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click)，[下](https://www.bilibili.com/video/BV1fA411Z772/?spm_id_from=333.337.search-card.all.click)
-   4. 实践任务：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
+   4. 实践任务【必须】：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
    5. 常用数据集示例
       - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
       - 视觉问答推理：
