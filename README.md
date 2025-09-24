@@ -84,13 +84,14 @@
 2. 参考综述：
     1. 大模型推理：Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models https://arxiv.org/pdf/2503.09567
     2. 多模态推理：
+      - Explain Before You Answer: A Survey on Compositional Visual Reasoning https://arxiv.org/abs/2508.17298
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
       - Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey https://arxiv.org/pdf/2503.12605
       - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
     3. 神经符号融合：
       - Neuro-Symbolic Concept: https://arxiv.org/abs/2505.06191
       - Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models: https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf
-  3. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
-  4. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识**
+  1. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
+  2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识**
 
 ## Stage 4：讨论确定具体方向，论文阅读、复现与改进
