@@ -54,29 +54,37 @@
      3. 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click)，[下](https://www.bilibili.com/video/BV1fA411Z772/?spm_id_from=333.337.search-card.all.click)
    4. 实践任务【必须】：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
    5. 常用数据集示例
-      - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
-      - 视觉问答推理：
-        - 高分辨率视觉问答：[V* Bench](https://vstar-seal.github.io/)
-        - 遥感图像问答：[RSVQA](https://arxiv.org/abs/2003.07333)
-        - 逻辑推理图像问答：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
+      - 视觉推理：
+        - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
+        - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
         - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
-      - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
-      - 具身规划：[Mini-Behavior](https://arxiv.org/abs/2310.01824), [ViPlan](https://arxiv.org/pdf/2505.13180), [Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
+        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
+        - 高分辨率图像问答：[V* Bench](https://vstar-seal.github.io/)
+        - 遥感图像问答：[RSVQA](https://arxiv.org/abs/2003.07333)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
+      - 具身智能：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
+      - Agent：[TravelPlanner](https://osu-nlp-group.github.io/TravelPlanner/), [ChinaTravel](https://www.lamda.nju.edu.cn/shaojj/chinatravel/), [VIRL](https://virl-platform.github.io/)
         
 有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
 
 ## Stage 2：神经符号基础
 ### 1. 逻辑与符号推理基础
   - 理解命题逻辑与一阶逻辑，掌握基本逻辑推理方法，了解Prolog语言
-  - 了解PDDL语言，能够调用规划求解器完成经典规划任务求解，例如积木世界BlocksWorld
+  - 了解PDDL语言，能够调用规划求解器完成经典规划任务求解，例如，基于Fast Downward求解积木世界BlocksWorld
   - 参考资料：AIMA对应章节
   
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
-  - 实践任务：阅读论文[Neural-Symbolic Concept learner](https://arxiv.org/abs/1904.12584)，并在Clevr数据集中实现
-  - 实践任务：阅读论文[Learning Adaptive Planning Representations with Natural Language Guidance](https://arxiv.org/pdf/2312.08566)，并在Mini Mincraft环境中实现
-
+  - 实践任务1：基于神经符号的视觉推理
+    - 阅读论文
+      - [Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding](https://arxiv.org/abs/1810.02338)
+      - [The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision](https://arxiv.org/abs/1904.12584)
+    - 尝试在CLEVR数据集中实现基于神经符号的视觉问答方案
+      - 参考资料：[Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
+  - 实践任务2：基于神经符号的具身规划
+    - 阅读论文
+      - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
+    - 尝试复现上述论文的技术方案
   
 
 ## Stage 3：综述论文
@@ -85,13 +93,13 @@
     1. 大模型推理：Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models https://arxiv.org/pdf/2503.09567
     2. 多模态推理：
       - Explain Before You Answer: A Survey on Compositional Visual Reasoning https://arxiv.org/abs/2508.17298
+      - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
       - Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey https://arxiv.org/pdf/2503.12605
-      - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
     3. 神经符号融合：
       - Neuro-Symbolic Concept: https://arxiv.org/abs/2505.06191
       - Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models: https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf
   1. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
-  2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识**
+  2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识，即这个方向主要有哪些科学问题？针对如何解决这些科学问题，有哪些相应的主流技术方案？**
 
-## Stage 4：讨论确定具体方向，论文阅读、复现与改进
+## Stage 4：讨论确定具体方向，大量论文阅读、复现与改进
