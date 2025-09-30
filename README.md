@@ -36,14 +36,14 @@
   2. 参考资料：
       1. ViT论文：https://arxiv.org/abs/2010.11929
       2. 参考代码库：https://github.com/lucidrains/vit-pytorch
-   3. 实践任务：基于Pytorch构建ViT模型，尝试面向一个图像分类任务，例如Image-Net子集、CIFAR-10等，进行训练/微调与评测
+   3. 实践任务【非必须，了解ViT原理为主】：基于Pytorch构建ViT模型，尝试面向一个图像分类任务，例如Image-Net子集、CIFAR-10等，进行训练/微调与评测
 
 ### 5. 视觉语言模型CLIP
   1. 掌握基础视觉-语言模型CLIP的基本原理
   2. 参考资料：
      1. CLIP论文：https://arxiv.org/abs/2103.00020
      2. 官方代码：https://github.com/openai/CLIP
-  4. 实践任务：基于预训练的CLIP完成一个图像分类数据集的分类任务，例如ImageNet，尝试替换不同的encoder，并对比分析结果
+  4. 实践任务【非必须，了解CLIP原理为主】：基于预训练的CLIP完成一个图像分类数据集的分类任务，例如ImageNet，尝试替换不同的encoder，并对比分析结果
 
 ### 6. 多模态大模型前沿
   1. 掌握LLaVA、Qwen-VL系列前沿多模态大模型架构，了解并追踪其他常用多模态大模型架构
