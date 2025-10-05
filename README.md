@@ -60,7 +60,7 @@
         - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
         - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
         - 高分辨率图像问答：[V* Bench](https://vstar-seal.github.io/)
-        - 遥感图像问答：[RSVQA](https://arxiv.org/abs/2003.07333)
+        - 遥感图像问答：[RSVQA](https://rsvqa.sylvainlobry.com/)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
       - 具身智能：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
       - Agent：[TravelPlanner](https://osu-nlp-group.github.io/TravelPlanner/), [ChinaTravel](https://www.lamda.nju.edu.cn/shaojj/chinatravel/), [VIRL](https://virl-platform.github.io/)
