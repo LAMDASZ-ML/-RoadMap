@@ -62,7 +62,7 @@
         - 高分辨率图像问答：[V* Bench](https://vstar-seal.github.io/)
         - 遥感图像问答：[RSVQA](https://rsvqa.sylvainlobry.com/)
       - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
-      - 具身智能：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
+      - 具身智能：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Arena](https://arxiv.org/pdf/2509.15273), [Embodied-Agent-Interface](https://embodied-agent-interface.github.io/)
       - Agent：[TravelPlanner](https://osu-nlp-group.github.io/TravelPlanner/), [ChinaTravel](https://www.lamda.nju.edu.cn/shaojj/chinatravel/), [VIRL](https://virl-platform.github.io/)
         
 有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
