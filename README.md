@@ -16,36 +16,28 @@
 ### 2. 常见深度神经网络架构
    1. 掌握CNN/ResNet、RNN/Transformer等机器学习基础模型架构
    2. 理解诸如残差连接、注意力机制、位置编码等核心思想
-   3. 参考资料：
+   3. 掌握GPT系列、LLaMA系列大语言模型架构
+   4. 参考资料：
       1. 《动手学深度学习》中的相关内容
-      1. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
-      2. Andrej Karpathy 课程关于Transformer与LLM部分
-5. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型，无需完成训练，了解Transformer如何通过代码构建即可
+      2. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
+      3. Andrej Karpathy 课程关于Transformer与LLM部分
+1. 实践任务：参考Happy-LLM相应章节，基于Pytorch手动搭建Transformer模型，无需完成训练，了解Transformer如何通过代码构建即可
 
-### 3. 大语言模型实践
-1. 掌握GPT系列、LLaMA系列大语言模型架构
-2. 掌握大语言模型的常用微调算法，例如LoRA、SFT、PPO/DPO/GRPO等
-3. 参考资料：
-    1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
-    2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
-    3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-4. 实践任务【非必须，了解相应框架即可】：基于HuggingFace Transformer库或LLaMA-Factory，完成一个开源大模型在某个垂域任务上的有监督微调与评测（例如司法、金融、数学等，相应数据集可自行搜索）
-
-### 4. Vision Transformer (ViT)
+### 3. Vision Transformer (ViT)
   1. 掌握Vision Transformer (ViT)的基本原理
   2. 参考资料：
       1. ViT论文：https://arxiv.org/abs/2010.11929
       2. 参考代码库：https://github.com/lucidrains/vit-pytorch
    3. 实践任务【非必须，了解ViT原理为主】：基于Pytorch构建ViT模型，尝试面向一个图像分类任务，例如Image-Net子集、CIFAR-10等，进行训练/微调与评测
 
-### 5. 视觉语言模型CLIP
+### 4. 视觉语言模型CLIP
   1. 掌握基础视觉-语言模型CLIP的基本原理
   2. 参考资料：
      1. CLIP论文：https://arxiv.org/abs/2103.00020
      2. 官方代码：https://github.com/openai/CLIP
   4. 实践任务【非必须，了解CLIP原理为主】：基于预训练的CLIP完成一个图像分类数据集的分类任务，例如ImageNet，尝试替换不同的encoder，并对比分析结果
 
-### 6. 多模态大模型前沿
+### 5. 多模态大模型前沿
   1. 掌握LLaVA、Qwen-VL系列前沿多模态大模型架构，了解并追踪其他常用多模态大模型架构
   2. 学习如何查找论文、技术报告，使用Huggingface中的模型代码等
   3. 参考资料：
@@ -58,20 +50,20 @@
         - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
         - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
         - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
-        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863)
-        - 高分辨率图像问答：[V* Bench](https://vstar-seal.github.io/)
-        - 遥感图像问答：[RSVQA](https://rsvqa.sylvainlobry.com/)
-      - 游戏智能体规划：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
+        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863),[VIRL](https://virl-platform.github.io/)
+      - 游戏智能体：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
       - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Arena](https://arxiv.org/pdf/2509.15273), [VisualAgentBench](https://arxiv.org/abs/2408.06327)
-      - Agent：[TravelPlanner](https://osu-nlp-group.github.io/TravelPlanner/), [ChinaTravel](https://www.lamda.nju.edu.cn/shaojj/chinatravel/), [VIRL](https://virl-platform.github.io/)
         
 有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
 
-## Stage 2：神经符号基础
-### 1. 逻辑与符号推理基础
-  - 理解命题逻辑与一阶逻辑，掌握基本逻辑推理方法，了解Prolog语言
-  - 了解PDDL语言，能够调用规划求解器完成经典规划任务求解，例如，基于Fast Downward求解积木世界BlocksWorld
-  - 参考资料：AIMA对应章节
+## Stage 2：进阶知识
+### 1. 大模型微调算法
+1. 掌握大语言模型、多模态大模型的常用微调算法，例如SFT、PPO/DPO/GRPO等
+2. 参考资料：
+    1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
+    2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
+    3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
+3. 实践任务：完成一个开源大模型在某个垂域数据集上的微调与性能评测
   
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
@@ -83,21 +75,18 @@
       - 参考资料：[Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
-      - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
+      - [WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents](https://arxiv.org/abs/2410.07484)
+      - [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
     - 尝试复现上述论文的技术方案
-  
 
 ## Stage 3：综述论文
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
-    1. 大模型推理：Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models https://arxiv.org/pdf/2503.09567
-    2. 多模态推理：
-      - Explain Before You Answer: A Survey on Compositional Visual Reasoning https://arxiv.org/abs/2508.17298
+    1. 多模态推理：
       - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
       - Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey https://arxiv.org/pdf/2503.12605
-    3. 神经符号融合：
-      - Neuro-Symbolic Concept: https://arxiv.org/abs/2505.06191
+    2. 神经符号融合：
       - Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models: https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf
   1. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
   2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识，即这个方向主要有哪些科学问题？针对如何解决这些科学问题，有哪些相应的主流技术方案？**
