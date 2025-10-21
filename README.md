@@ -47,7 +47,7 @@
    4. 实践任务【必须】：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
    5. 常用数据集示例
       - 视觉推理：
-        - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
+        - 几何数学推理：[MathVista](https://mathvista.github.io/), [MathVision](https://mathllm.github.io/mathvision/), [We-Math](https://we-math2.github.io/)
         - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
         - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
         - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863), [VIRL](https://virl-platform.github.io/)
