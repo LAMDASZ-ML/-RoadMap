@@ -50,8 +50,8 @@
         - 几何数学推理：[MathVista](https://mathvista.github.io/)，[MathVision](https://mathllm.github.io/mathvision/)，[We-Math](https://we-math2.github.io/)
         - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
         - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
-        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863),[VIRL](https://virl-platform.github.io/)
-      - 游戏智能体：[我的世界](https://minedojo.org/)，[星露谷物语](https://arxiv.org/pdf/2507.07445)
+        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863), [VIRL](https://virl-platform.github.io/)
+      - 游戏智能体：[我的世界](https://minedojo.org/), [星露谷物语](https://arxiv.org/pdf/2507.07445)
       - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Arena](https://arxiv.org/pdf/2509.15273), [VisualAgentBench](https://arxiv.org/abs/2408.06327)
         
 有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
