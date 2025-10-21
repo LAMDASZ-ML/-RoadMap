@@ -48,8 +48,8 @@
    5. 常用数据集示例
       - 视觉推理：
         - 几何数学推理：[MathVista](https://mathvista.github.io/), [MathVision](https://mathllm.github.io/mathvision/), [We-Math](https://we-math2.github.io/)
-        - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
-        - 空间推理：[商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
+        - 图像逻辑推理：[CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/), [VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
+        - 空间推理：[SpatialScore](https://haoningwu3639.github.io/SpatialScore/), [商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
         - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863), [VIRL](https://virl-platform.github.io/)
       - 游戏智能体：[我的世界](https://minedojo.org/), [星露谷物语](https://arxiv.org/pdf/2507.07445)
       - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Arena](https://arxiv.org/pdf/2509.15273), [VisualAgentBench](https://arxiv.org/abs/2408.06327)
@@ -60,10 +60,9 @@
 ### 1. 大模型微调算法
 1. 掌握大语言模型、多模态大模型的常用微调算法，例如SFT、PPO/DPO/GRPO等
 2. 参考资料：
-    1. HuggingFace Transformer库：https://huggingface.co/docs/transformers/index
-    2. LLaMA-Factory：https://github.com/hiyouga/LLaMA-Factory
-    3. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-3. 实践任务：完成一个开源大模型在某个垂域数据集上的微调与性能评测
+    1. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
+    2. Reinforcement Learning for LLM Reasoning Survey: https://arxiv.org/pdf/2509.08827 
+3. 实践任务：阅读论文[SFT or RL](https://arxiv.org/pdf/2504.11468)，尝试基于SFT与RL算法微调多模态大模型
   
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
@@ -77,16 +76,17 @@
     - 阅读论文
       - [WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents](https://arxiv.org/abs/2410.07484)
       - [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
-    - 尝试复现上述论文的技术方案
+    - 尝试在游戏或者具身环境中复现上述论文的技术方案
 
 ## Stage 3：综述论文
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
-    1. 多模态推理：
+    1. Agent AI: https://arxiv.org/pdf/2401.03568 
+    2. 多模态推理：
       - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
       - Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey https://arxiv.org/pdf/2503.12605
-    2. 神经符号融合：
+    3. 神经符号融合：
       - Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models: https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf
   1. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
   2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识，即这个方向主要有哪些科学问题？针对如何解决这些科学问题，有哪些相应的主流技术方案？**
