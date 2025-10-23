@@ -81,7 +81,9 @@
 ## Stage 3：综述论文
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
-    1. Agent AI: https://arxiv.org/pdf/2401.03568 
+    1. Agent:
+      - Agent AI: https://arxiv.org/pdf/2401.03568 
+      - Multi-Modal Agent: https://arxiv.org/pdf/2510.10991 
     2. 多模态推理：
       - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
