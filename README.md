@@ -63,7 +63,7 @@
     1. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
     2. Reinforcement Learning for LLM Reasoning Survey: https://arxiv.org/pdf/2509.08827 
 3. 实践任务：阅读论文[SFT or RL](https://arxiv.org/pdf/2504.11468)，尝试基于SFT与RL算法微调多模态大模型
-  
+
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
@@ -74,8 +74,8 @@
       - 参考资料：[Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
-      - [WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents](https://arxiv.org/abs/2410.07484)
       - [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
+      - [Training-Free GRPO](https://arxiv.org/abs/2510.08191)
     - 尝试在游戏或者具身环境中复现上述论文的技术方案
 
 ## Stage 3：综述论文
