@@ -64,8 +64,8 @@
 
 ## Stage 2：神经符号推理基础
 ### 1. 基础符号推理工具
-   - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm),能够使用Z3编写代码求解数学推理问题。
-   - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html),能够基于Prolog编写代码完成逻辑推理问题
+   - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm), 能够使用Z3编写代码求解数学推理问题
+   - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html), 能够基于Prolog编写代码完成逻辑推理问题
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
