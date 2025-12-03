@@ -2,7 +2,7 @@
 
 ### 请注意，并非所有的任务都要逐一完成，如果你觉得对于你来说过于简单，可以直接跳过~
 
-## Stage 1：基础知识
+## Stage 1：神经网络->大语言模型->多模态大模型
 
 ### 1. 神经网络与深度学习基础
   1. 掌握神经网络的基本原理，能够理解前向传播与反向传播的数学推导与代码实现
@@ -16,7 +16,7 @@
 ### 2. 常见深度神经网络架构
    1. 掌握CNN/ResNet、RNN/Transformer等机器学习基础模型架构
    2. 理解诸如残差连接、注意力机制、位置编码等核心思想
-   3. 掌握GPT系列、LLaMA系列大语言模型架构
+   3. 掌握GPT系列、LLaMA系列等大语言模型架构
    4. 参考资料：
       1. 《动手学深度学习》中的相关内容
       2. Happy-LLM 第二-五章：https://datawhalechina.github.io/happy-llm/ 
@@ -42,28 +42,30 @@
   2. 学习如何查找论文、技术报告，使用Huggingface中的模型代码等
   3. 参考资料：
      1. LLaVA论文：https://arxiv.org/abs/2304.08485
-     2. Qwen2.5-VL Technical Report：https://arxiv.org/abs/2502.13923
+     2. Qwen3-VL Technical Report：https://arxiv.org/abs/2511.21631
      3. 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click)，[下](https://www.bilibili.com/video/BV1fA411Z772/?spm_id_from=333.337.search-card.all.click)
    4. 实践任务【必须】：选择一个典型的多模态推理或规划任务，例如几何数学推理、视觉问答、空间推理、视觉规划、具身规划、游戏智能体规划，尝试运行至少一个多模态大模型，获得评测结果；此部分可形成简要的PPT汇报
    5. 常用数据集示例
       - 视觉推理：
         - 几何数学推理：[MathVista](https://mathvista.github.io/), [MathVision](https://mathllm.github.io/mathvision/), [We-Math](https://we-math2.github.io/)
-        - 图像逻辑推理：[CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/), [VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
-        - 空间推理：[SpatialScore](https://haoningwu3639.github.io/SpatialScore/), [商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
-        - 视觉规划：[VSP](https://arxiv.org/pdf/2407.01863), [VIRL](https://virl-platform.github.io/)
-      - 游戏智能体：[我的世界](https://minedojo.org/), [星露谷物语](https://arxiv.org/pdf/2507.07445)
-      - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [Embodied-Arena](https://arxiv.org/pdf/2509.15273), [VisualAgentBench](https://arxiv.org/abs/2408.06327)
-        
-有意提前进组的同学完成Stage 1后即可进一步交流研究方向。
+        - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
+      - 空间推理：[SpatialScore](https://haoningwu3639.github.io/SpatialScore/), [商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
+      - 游戏智能体：[我的世界](https://minedojo.org/)
+      - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560),   
 
-## Stage 2：进阶知识
-### 1. 大模型微调算法
+### 6. 大模型微调算法
 1. 掌握大语言模型、多模态大模型的常用微调算法，例如SFT、PPO/DPO/GRPO等
 2. 参考资料：
     1. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
     2. Reinforcement Learning for LLM Reasoning Survey: https://arxiv.org/pdf/2509.08827 
-3. 实践任务：阅读论文[SFT or RL](https://arxiv.org/pdf/2504.11468)，尝试基于SFT与RL算法微调多模态大模型
+3. 实践任务：阅读论文[SFT or RL](https://arxiv.org/pdf/2504.11468)，[SFT Memorize, RL Generalize](https://arxiv.org/abs/2501.17161), 尝试基于SFT与RL算法微调一个开源多模态大模型
 
+有意提前进组的同学完成任务5后即可进一步交流研究方向。
+
+## Stage 2：神经符号推理基础
+### 1. 基础符号推理工具
+   - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm),能够使用Z3编写代码求解数学推理问题。
+   - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html),能够基于Prolog编写代码完成逻辑推理问题
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
@@ -74,16 +76,18 @@
       - 参考资料：[Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
-      - [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
-      - [Training-Free GRPO](https://arxiv.org/abs/2510.08191)
+      - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
+      - [WALL-E 2.0: World Alignment by Neuro-Symbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
     - 尝试在游戏或者具身环境中复现上述论文的技术方案
+      - 参考代码：[Github: LLM+P](https://github.com/Cranial-XIX/llm-pddl)
 
 ## Stage 3：综述论文
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
     1. Agent:
       - Agent AI: https://arxiv.org/pdf/2401.03568 
-      - Multi-Modal Agent: https://arxiv.org/pdf/2510.10991 
+      - Multi-Modal Agent: https://arxiv.org/pdf/2510.10991
+      - VisualAgentBench: https://arxiv.org/abs/2408.06327
     2. 多模态推理：
       - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
       - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
