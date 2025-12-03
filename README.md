@@ -51,7 +51,7 @@
         - 图像逻辑推理：[VisuLogic](https://arxiv.org/pdf/2504.15279), [LogicVista](https://arxiv.org/pdf/2407.04973), [ARC-AGI](https://arcprize.org/arc-agi)
       - 空间推理：[SpatialScore](https://haoningwu3639.github.io/SpatialScore/), [商汤整合的空间推理benchmark及模型评测](https://arxiv.org/pdf/2508.13142)
       - 游戏智能体：[我的世界](https://minedojo.org/)
-      - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560),   
+      - 具身智能体：[Embodied-Bench](https://arxiv.org/pdf/2502.09560), [ALFWorld](https://alfworld.github.io/)
 
 ### 6. 大模型微调算法
 1. 掌握大语言模型、多模态大模型的常用微调算法，例如SFT、PPO/DPO/GRPO等
