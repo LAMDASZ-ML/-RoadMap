@@ -2,7 +2,7 @@
 
 ### 请注意，并非所有的任务都要逐一完成，如果你觉得对于你来说过于简单，可以直接跳过~
 
-## Stage 1：多模态大模型基础
+## Stage 1：多模态大模型
 
 ### 1. 神经网络与深度学习基础
   1. 掌握神经网络的基本原理，能够理解前向传播与反向传播的数学推导与代码实现
@@ -37,7 +37,7 @@
      2. 官方代码：https://github.com/openai/CLIP
   4. 实践任务【非必须，了解CLIP原理为主】：基于预训练的CLIP完成一个图像分类数据集的分类任务，例如ImageNet，尝试替换不同的encoder，并对比分析结果
 
-### 5. 多模态大模型前沿
+### 5. 多模态大模型
   1. 掌握LLaVA、Qwen-VL系列前沿多模态大模型架构，了解并追踪其他常用多模态大模型架构
   2. 学习如何查找论文、技术报告，使用Huggingface中的模型代码等
   3. 参考资料：
@@ -63,10 +63,12 @@
 有意提前进组的同学完成任务5后即可进一步交流研究方向。
 
 ## Stage 2：神经符号推理基础
+
 ### 1. 基础符号推理工具
-   - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm), 能够使用Z3编写代码求解数学推理问题
+   - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm), 能够基于Z3编写代码求解数学推理问题
    - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html), 能够基于Prolog编写代码完成逻辑推理问题
    - 学习PDDL语言，能够在[在线PDDL规划器](https://editor.planning.domains/#)编程实现BlocksWorld规划问题
+  
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
@@ -78,7 +80,7 @@
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
       - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
-    - 尝试在经典规划任务Blocksworld中复现上述论文的技术方案
+    - 尝试在Blocksworld或ALFWorld中复现上述论文的技术方案
       - 参考代码：[Github: LLM+P](https://github.com/Cranial-XIX/llm-pddl)
 
 ## Stage 3：综述论文
