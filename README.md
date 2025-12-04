@@ -66,7 +66,7 @@
 ### 1. 基础符号推理工具
    - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm), 能够使用Z3编写代码求解数学推理问题
    - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html), 能够基于Prolog编写代码完成逻辑推理问题
-   - 学习PDDL语言：[FastDownward](https://www.fast-downward.org/), 能够在[在线PDDL规划器](https://editor.planning.domains/#)变成实现BlocksWorld规划问题
+   - 学习PDDL语言，能够在[在线PDDL规划器](https://editor.planning.domains/#)编程实现BlocksWorld规划问题
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
@@ -78,8 +78,7 @@
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
       - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
-      - [WALL-E 2.0: World Alignment by Neuro-Symbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
-    - 尝试在游戏或者具身环境中复现上述论文的技术方案
+    - 尝试在经典规划任务Blocksworld中复现上述论文的技术方案
       - 参考代码：[Github: LLM+P](https://github.com/Cranial-XIX/llm-pddl)
 
 ## Stage 3：综述论文
