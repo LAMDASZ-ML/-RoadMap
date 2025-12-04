@@ -2,7 +2,7 @@
 
 ### 请注意，并非所有的任务都要逐一完成，如果你觉得对于你来说过于简单，可以直接跳过~
 
-## Stage 1：神经网络->大语言模型->多模态大模型
+## Stage 1：多模态大模型基础
 
 ### 1. 神经网络与深度学习基础
   1. 掌握神经网络的基本原理，能够理解前向传播与反向传播的数学推导与代码实现
@@ -66,6 +66,7 @@
 ### 1. 基础符号推理工具
    - 学习SMT Solver: [Z3](https://ericpony.github.io/z3py-tutorial/guide-examples.htm), 能够使用Z3编写代码求解数学推理问题
    - 学习Prolog：[Prolog](https://www.swi-prolog.org/GetStarted.html), 能够基于Prolog编写代码完成逻辑推理问题
+   - 学习PDDL语言：[FastDownward](https://www.fast-downward.org/), 能够在[在线PDDL规划器](https://editor.planning.domains/#)变成实现BlocksWorld规划问题
 ### 2. 神经符号推理基础
   - 学习如何将神经网络与符号推理结合，尝试理解神经符号推理与端到端神经网络的区别
   - 实践任务1：基于神经符号的视觉推理
@@ -85,15 +86,16 @@
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
     1. Agent:
-      - Agent AI: https://arxiv.org/pdf/2401.03568 
-      - Multi-Modal Agent: https://arxiv.org/pdf/2510.10991
-      - VisualAgentBench: https://arxiv.org/abs/2408.06327
+      - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/pdf/2401.03568)
+      - [A Survey on Agentic Multimodal Large Language Models](https://arxiv.org/pdf/2510.10991)
+      - [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327)
     2. 多模态推理：
-      - Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models https://arxiv.org/pdf/2505.04921
-      - Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers https://arxiv.org/pdf/2506.23918
-      - Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey https://arxiv.org/pdf/2503.12605
+      - [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/pdf/2505.04921)
+      - [Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers](https://arxiv.org/pdf/2506.23918)
+      - [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/pdf/2503.12605)
+      - [Explain Before You Answer: A Survey on Compositional Visual Reasoning](https://arxiv.org/pdf/2508.17298)
     3. 神经符号融合：
-      - Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models: https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf
+      - [Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf)
   1. 任务：以综述论文为纲，阅读学习相关论文，完成一个PPT汇报，重在凝练形成整体认识，无需介绍方法细节。
   2. **目标：能够从技术和问题两个维度，形成对该领域的分类与认识，即这个方向主要有哪些科学问题？针对如何解决这些科学问题，有哪些相应的主流技术方案？**
 
