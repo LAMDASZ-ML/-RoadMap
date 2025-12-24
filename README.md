@@ -57,7 +57,8 @@
 1. 掌握大语言模型、多模态大模型的常用微调算法，例如SFT、PPO/DPO/GRPO等
 2. 参考资料：
     1. Happy-LLM 第六章：https://datawhalechina.github.io/happy-llm/ 
-    2. Reinforcement Learning for LLM Reasoning Survey: https://arxiv.org/pdf/2509.08827 
+    2. LLaMA Factory：https://llamafactory.readthedocs.io/
+    3. Reinforcement Learning for LLM Reasoning Survey: https://arxiv.org/pdf/2509.08827 
 3. 实践任务：阅读论文[SFT or RL](https://arxiv.org/pdf/2504.11468)，[SFT Memorize, RL Generalize](https://arxiv.org/abs/2501.17161), 尝试基于SFT与RL算法微调一个开源多模态大模型
 
 有意提前进组的同学完成任务5后即可进一步交流研究方向。
@@ -75,25 +76,26 @@
     - 阅读论文
       - [Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding](https://arxiv.org/abs/1810.02338)
       - [The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision](https://arxiv.org/abs/1904.12584)
-    - 尝试在CLEVR数据集中实现基于神经符号的视觉问答方案
-      - 参考资料：[Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
+    - 尝试在CLEVR数据集中实现基于神经符号的视觉问答方案，参考资料：
+      - [Concepts](https://concepts.jiayuanm.com/index.html)
+      - [Github: Neuro Symbolic VQA](https://github.com/nerdimite/neuro-symbolic-ai-soc)
   - 实践任务2：基于神经符号的具身规划
     - 阅读论文
       - [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
-    - 尝试在Blocksworld或ALFWorld中复现上述论文的技术方案
+    - 尝试在BlocksWorld或ALFWorld中复现上述论文的技术方案
       - 参考代码：[Github: LLM+P](https://github.com/Cranial-XIX/llm-pddl)
 
 ## Stage 3：综述论文
 1. 阅读相关领域综述，了解前沿进展，形成对该领域的整体认识
 2. 参考综述：
     1. Agent:
-      - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/pdf/2401.03568)
-      - [A Survey on Agentic Multimodal Large Language Models](https://arxiv.org/pdf/2510.10991)
-      - [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327)
+      - [Agent AI: Surveying the Horizons of Multi-Modal Interaction](https://arxiv.org/pdf/2401.03568)
+      - [A Survey on Agentic Multi-Modal Large Language Models](https://arxiv.org/pdf/2510.10991)
+      - [VisualAgentBench: Towards Large Multi-Modal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327)
     2. 多模态推理：
-      - [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/pdf/2505.04921)
-      - [Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers](https://arxiv.org/pdf/2506.23918)
-      - [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/pdf/2503.12605)
+      - [Perception, Reason, Think, and Plan: A Survey on Large Multi-Modal Reasoning Models](https://arxiv.org/pdf/2505.04921)
+      - [Thinking with Images for Multi-Modal Reasoning: Foundations, Methods, and Future Frontiers](https://arxiv.org/pdf/2506.23918)
+      - [Multi-Modal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/pdf/2503.12605)
       - [Explain Before You Answer: A Survey on Compositional Visual Reasoning](https://arxiv.org/pdf/2508.17298)
     3. 神经符号融合：
       - [Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8905.pdf)
