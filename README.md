@@ -32,7 +32,7 @@
 * 掌握 Pytorch 核心组件的使用，例如 Dataloader、损失函数、模型搭建、优化器等
 
 **参考资料**：
-* [动手学深度学习](https://zh-d2l.ai/)
+* [动手学深度学习](https://zh.d2l.ai/)
 * [Neural Networks: Zero to Hero (Andrej Karpathy)](https://karpathy.ai/zero-to-hero.html)
 * [PyTorch Tutorial](https://pytorch.org/tutorials/)
 
@@ -58,7 +58,7 @@
 * [ViT 论文](https://arxiv.org/abs/2010.11929) | [代码库](https://github.com/lucidrains/vit-pytorch)
 * [LLaVA 论文](https://arxiv.org/abs/2304.08485)
 * [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631)
-* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](【多模态论文串讲·下【论文精读·49】】 https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
+* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](ttps://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
 ---
 
 **考核方式**：
@@ -71,8 +71,8 @@
 > **说明**：进入此阶段，你已经正式开始科研训练。本阶段重点在于论文调研、阅读、复现与思考
 
 **预备工作**：
-1.  请自行搜索，了解什么是 arXiv, Huggingface, Google Scholar, DBLP
-2.  了解 ICML, NeurIPS, ICLR 等人工智能顶级会议，具备根据某个 topic 检索相关论文的能力
+1.  请自行搜索，了解什么是 arXiv, HuggingFace, Google Scholar, DBLP
+2.  了解 ICML, NeurIPS, ICLR 等人工智能顶级会议, 具备根据某个 topic 检索相关论文的能力
 
 **核心流程**：
 1.  **了解方向**：了解本组的主要科研方向（Neuro-Symbolic Learning，LLM Reasoning，Agent）。
@@ -165,7 +165,7 @@
 ---
 
 **💡 自定义方向**
-如果你对其他隶属于 Neuro-Symbolic Learning、Agent、LLM Reasoning 领域的研究方向感兴趣（比如多模态医学推理、遥感图像推理、Char QA、智慧司法等），也可以提前进行沟通，得到允许之后，可以自行发挥查阅相关文献，按对等要求完成（即复现至少 1 篇论文算法在 1 个数据集上的主要实验结果）。
+如果你对其他隶属于 Neuro-Symbolic Learning、Agent、LLM Reasoning 领域的研究方向感兴趣（比如多模态医学推理、遥感图像推理、Chart QA、智慧司法、或者我的世界之外的其他游戏场景等），也可以提前进行沟通，得到允许之后，可以自行发挥查阅相关文献，按对等要求完成（即复现至少 1 篇论文算法在 1 个数据集上的实验结果）
 
 ---
 
