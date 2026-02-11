@@ -117,7 +117,7 @@
 * [VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks](https://arxiv.org/abs/2511.04662)
 > **🎯 实践任务**：
 > 基于上述提供的论文，调研结合Formal Language与Symbolic Solver提升LLM逻辑推理能力的工作，在至少1个逻辑推理benchmark中进行1篇论文复现
-> *(体会结合形式化语言与求解器提升LLM逻辑推理能力的思想)*
+> 目标：体会结合形式化语言与求解器提升LLM逻辑推理能力的思想
 
 #### 方向 2：数学、几何推理
 * [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/pdf/2504.11468)
@@ -127,7 +127,7 @@
 
 > **🎯 实践任务**：
 > 基于 SFT 或 GRPO 算法微调一个开源大语言模型或者多模态大模型（例如 Qwen-Math 系列），在一个数学推理数据集（例如 GSM8K、MATH、MathVista 等）进行评测，分析微调前后模型的性能变化
-> *(注：SFT为必选任务，GRPO如果跑不起来，可以只掌握原理/代码实现)*
+> 目标：体会SFT与RL作为两种常用post-training范式的区别，并学会使用两种方式提升base model推理能力；SFT为必选任务，GRPO如果跑不起来，可以只掌握原理/代码实现
 
 #### 方向 3：视觉图像推理
 * [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/pdf/2211.11559)
@@ -137,7 +137,7 @@
 
 > **🎯 实践任务**：
 > 调研 "Think with Images" 方向的论文，尝试在一个视觉推理数据集上，复现一种方法，并进行结果分析
-> *(注：如果算力不允许可以优先选择无需训练的方法)*
+> 目标：体会think with images这一方向的主要研究问题和常见范式；如果算力不允许可以优先选择Training-Free的方法
 
 #### 方向 4：抽象视觉推理
 * [ARC Challenge](https://arcprize.org/)
@@ -145,6 +145,7 @@
 
 > **🎯 实践任务**：
 > 了解什么是 ARC Challenge，调研相应的论文与解决方案，并尝试实现至少一种方法，分析其结果和瓶颈
+> 目标：了解ARC Challenge这一任务，熟悉已有的方法范式
 
 #### 方向 5：Travel Agent (Tool-Use & Planning)
 * [TravelPlanner: A Benchmark for Real-World Planning with Language Agents](https://arxiv.org/abs/2402.01622?)
@@ -153,6 +154,7 @@
 
 > **🎯 实践任务**：
 > 基于 ReAct 框架构建一个简单的 Agent，分析其在上述两个数据集中的性能表现
+> 目标：体会Travel Planning这一任务的关键挑战（约束可满足的复杂规划能力）以及潜在解决方案
 
 #### 方向 6：Game/Embodied Agent
 * [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
@@ -161,14 +163,16 @@
 * [Re2 Agent: Reflection and Re-execution Agent for Embodied Decision Making](https://openreview.net/pdf?id=nHhOvYrPMf) (NeurIPS 2025 EAI Challenge Most Innovative Approach)
 
 > **🎯 实践任务**：
-> 参考上面的论文，在我的世界 (MineCraft) 环境或具身数据集 ALFWorld 中进行实验，并汇报性能结果。
+> 参考上面的论文，在我的世界 (MineCraft) 环境或具身数据集 ALFWorld 或者 EAI 中进行实验，并汇报性能结果。
 > *(注：MineCraft 相对来说环境更为复杂，且对模型能力要求较高，请根据自身工程能力选择)*
+> 目标：了解Agent Skill、Agent Memory等相关内容，熟悉相关的benchmark
 
 #### 方向 7：Symbolic Regression
 * Tutorial: https://symbolicregression2025.github.io/
 
 > **🎯 实践任务**：
-> 基于上述 Tutorial，阅读相关论文，尝试复现论文 [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models](https://openreview.net/forum?id=m2nmp8P5in)，根据论文给出的 Github 仓库跑通代码，并对比与原文中的结果。
+> 基于上述 Tutorial，阅读相关论文，尝试复现论文 [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models](https://openreview.net/forum?id=m2nmp8P5in)，根据论文给出的 Github 仓库跑通代码，并对比与原文中的结果
+>目标：了解Symbolic Regression任务，常见的benchmark以及LLM时代的主流方法
 
 ---
 
