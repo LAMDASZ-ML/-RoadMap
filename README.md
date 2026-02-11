@@ -89,6 +89,7 @@
     * [Neuro-Symbolic Learning in the era of Large Models](https://www.lamda.nju.edu.cn/guolz/paper/AAAI_Logic_AI_Keynote.pdf)
     * [Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2508.13678)
 * **大模型推理与规划 (LLM/MLLM Reasoning & Planning)**
+    * [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
     * [Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models](https://arxiv.org/abs/2503.09567)
     * [Perception, Reason, Think, and Plan: A Survey on Large Multi-Modal Reasoning Models](https://arxiv.org/pdf/2505.04921)
 * **智能体 (Agent)**
@@ -110,8 +111,15 @@
 
 ---
 
-#### 方向 1：数学、几何推理
-* [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
+#### 方向 1：大模型逻辑推理
+* [Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://arxiv.org/abs/2305.12295)
+* [Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/pdf/2405.18357)
+* [VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks](https://arxiv.org/abs/2511.04662)
+> **🎯 实践任务**：
+> 基于上述提供的论文，调研结合Formal Language与Symbolic Solver提升LLM逻辑推理能力的工作，在至少1个逻辑推理benchmark中进行1篇论文复现
+> *(体会结合形式化语言与求解器提升LLM逻辑推理能力的思想)*
+
+#### 方向 2：数学、几何推理
 * [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/pdf/2504.11468)
 * [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/abs/2501.17161)
 * [Neuro-Symbolic Data Generation for Math Reasoning](https://arxiv.org/abs/2412.04857)
@@ -121,7 +129,7 @@
 > 基于 SFT 或 GRPO 算法微调一个开源大语言模型或者多模态大模型（例如 Qwen-Math 系列），在一个数学推理数据集（例如 GSM8K、MATH、MathVista 等）进行评测，分析微调前后模型的性能变化
 > *(注：SFT为必选任务，GRPO如果跑不起来，可以只掌握原理/代码实现)*
 
-#### 方向 2：视觉图像推理
+#### 方向 3：视觉图像推理
 * [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/pdf/2211.11559)
 * [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/abs/2505.14362)
 * [Thyme: Think Beyond Images](https://arxiv.org/abs/2508.11630)
@@ -131,14 +139,14 @@
 > 调研 "Think with Images" 方向的论文，尝试在一个视觉推理数据集上，复现一种方法，并进行结果分析
 > *(注：如果算力不允许可以优先选择无需训练的方法)*
 
-#### 方向 3：抽象视觉推理
+#### 方向 4：抽象视觉推理
 * [ARC Challenge](https://arcprize.org/)
 * [NSA: Neuro-symbolic ARC Challenge](https://arxiv.org/abs/2501.04424)
 
 > **🎯 实践任务**：
 > 了解什么是 ARC Challenge，调研相应的论文与解决方案，并尝试实现至少一种方法，分析其结果和瓶颈
 
-#### 方向 4：Travel Agent (Tool-Use & Planning)
+#### 方向 5：Travel Agent (Tool-Use & Planning)
 * [TravelPlanner: A Benchmark for Real-World Planning with Language Agents](https://arxiv.org/abs/2402.01622?)
 * [ChinaTravel: An Open-Ended Benchmark for Language Agents in Chinese Travel Planning](https://arxiv.org/pdf/2412.13682)
 * [Mind the Gap to Trustworthy LLM Agents: A Systematic Evaluation on Constraint Satisfaction for Real-World Travel Planning](https://openreview.net/pdf?id=SXKIaWTe4N) (**AAAI 2026 Trust Agent Workshop Best Student Paper, 前两位作者均为智科院本科生**)
@@ -146,7 +154,7 @@
 > **🎯 实践任务**：
 > 基于 ReAct 框架构建一个简单的 Agent，分析其在上述两个数据集中的性能表现
 
-#### 方向 5：Game/Embodied Agent
+#### 方向 6：Game/Embodied Agent
 * [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
 * [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
 * [InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning](https://openreview.net/pdf?id=nzwjvpCO4F)
@@ -156,7 +164,7 @@
 > 参考上面的论文，在我的世界 (MineCraft) 环境或具身数据集 ALFWorld 中进行实验，并汇报性能结果。
 > *(注：MineCraft 相对来说环境更为复杂，且对模型能力要求较高，请根据自身工程能力选择)*
 
-#### 方向 6：Symbolic Regression
+#### 方向 7：Symbolic Regression
 * Tutorial: https://symbolicregression2025.github.io/
 
 > **🎯 实践任务**：
