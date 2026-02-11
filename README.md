@@ -170,6 +170,7 @@
 * [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
 * [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
 * [InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning](https://openreview.net/pdf?id=nzwjvpCO4F)
+* [Training-Free Group Relative Policy Optimization](https://arxiv.org/pdf/2510.08191)
 * [Re2 Agent: Reflection and Re-execution Agent for Embodied Decision Making](https://openreview.net/pdf?id=nHhOvYrPMf) (NeurIPS 2025 EAI Challenge Most Innovative Approach)
 
 > **🎯 实践任务**：
