@@ -58,8 +58,7 @@
 * [ViT 论文](https://arxiv.org/abs/2010.11929) | [代码库](https://github.com/lucidrains/vit-pytorch)
 * [LLaVA 论文](https://arxiv.org/abs/2304.08485)
 * [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631)
-* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1ZM4y1u7uF/)，[下](https://www.bilibili.com/video/BV1Nw411Z7wW/)
-
+* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](【多模态论文串讲·下【论文精读·49】】 https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
 ---
 
 **考核方式**：
