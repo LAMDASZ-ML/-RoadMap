@@ -185,7 +185,7 @@
 
 > **🎯 实践任务**：
 > 
-> 基于上述 Tutorial，阅读相关论文，尝试复现论文 [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models](https://openreview.net/forum?id=m2nmp8P5in)，根据论文给出的 Github 仓库跑通代码，并对比与原文中的结果
+> 基于上述 Tutorial，阅读相关论文，尝试复现论文 [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models](https://openreview.net/forum?id=m2nmp8P5in)，根据论文给出的 Github 仓库跑通代码，并对比原文中的结果
 > 
 >目标：了解Symbolic Regression任务，常见的benchmark以及LLM时代的主流方法
 
