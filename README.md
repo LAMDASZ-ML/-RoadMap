@@ -44,7 +44,6 @@
 
 **参考资料**：
 * [Happy-LLM (Datawhale)](https://datawhalechina.github.io/happy-llm/)
-* [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 #### 3. 视觉与多模态大模型
 
