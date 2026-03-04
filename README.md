@@ -68,6 +68,7 @@
 * 掌握Chain-of-Thought等大模型推理机制
 * 掌握SFT、DPO、GRPO等提升基座模型推理能力的后训练方式
 * 了解GSM8K、MATH等常用的benchmark
+  
 **参考资料**：
 * [Prompt Engineering Guide](https://www.promptingguide.ai/zh)
 * [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
