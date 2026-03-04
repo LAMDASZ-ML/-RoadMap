@@ -59,6 +59,22 @@
 * [LLaVA 论文](https://arxiv.org/abs/2304.08485)
 * [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631)
 * 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
+
+
+#### 4. 大模型推理
+
+**学习目标**：
+* 掌握基础的 Prompt Engineering (Zero-shot, Few-shot, etc) 及 API 调用方式
+* 掌握Chain-of-Thought等大模型推理机制
+* 掌握SFT、DPO、GRPO等提升基座模型推理能力的后训练方式
+* 了解GSM8K、MATH等常用的benchmark
+**参考资料**：
+* [Prompt Engineering Guide](https://www.promptingguide.ai/zh)
+* [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
+* [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/pdf/2504.11468)
+* [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/abs/2501.17161)
+
+
 ---
 
 **考核方式**：
@@ -89,7 +105,6 @@
     * [Neuro-Symbolic Learning in the era of Large Models](https://www.lamda.nju.edu.cn/guolz/paper/AAAI_Logic_AI_Keynote.pdf)
     * [Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2508.13678)
 * **大模型推理与规划 (LLM/MLLM Reasoning & Planning)**
-    * [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
     * [Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models](https://arxiv.org/abs/2503.09567)
     * [Perception, Reason, Think, and Plan: A Survey on Large Multi-Modal Reasoning Models](https://arxiv.org/pdf/2505.04921)
 * **智能体 (Agent)**
@@ -122,8 +137,6 @@
 > 目标：体会结合形式化语言与求解器提升LLM逻辑推理能力的思想
 
 #### 方向 2：数学、几何推理
-* [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/pdf/2504.11468)
-* [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/abs/2501.17161)
 * [Neuro-Symbolic Data Generation for Math Reasoning](https://arxiv.org/abs/2412.04857)
 * [NeSyGeo: A Neuro-Symbolic Framework for Multimodal Geometric Reasoning Data Generation](https://arxiv.org/abs/2505.17121)(一作是智科院 2023 级本科生，大二期间完成)
 
@@ -170,12 +183,14 @@
 * [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
 * [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
 * [InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning](https://openreview.net/pdf?id=nzwjvpCO4F)
+* [Agent Workflow Memory](https://arxiv.org/pdf/2409.07429)
+* [Inducing Programmatic Skills for Agentic Tasks](https://arxiv.org/abs/2504.06821)
 * [Training-Free Group Relative Policy Optimization](https://arxiv.org/pdf/2510.08191)
 * [Re2 Agent: Reflection and Re-execution Agent for Embodied Decision Making](https://openreview.net/pdf?id=nHhOvYrPMf) (NeurIPS 2025 EAI Challenge Most Innovative Approach)
 
 > **🎯 实践任务**：
 > 
-> 参考上面的论文，在我的世界 (MineCraft) 环境或具身数据集 ALFWorld 或者 EAI 中进行实验，并汇报性能结果。
+> 参考上面的论文，在我的世界 (MineCraft) 环境或具身数据集 ALFWorld 或者Web Agent环境WebShop中进行实验，并汇报性能结果。
 > *(注：MineCraft 相对来说环境更为复杂，且对模型能力要求较高，请根据自身工程能力选择)*
 > 
 > 目标：了解Agent Skill、Agent Memory等相关内容，熟悉相关的benchmark
