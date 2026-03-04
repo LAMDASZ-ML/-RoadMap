@@ -41,8 +41,6 @@
 **学习目标**：
 * 掌握 Transformer 的核心机制 (Self-Attention, Positional Encoding, Decoder-only vs Encoder-Decoder 等)
 * 了解 GPT 系列、LLaMA 系列等典型大语言模型
-* 了解基础的 Prompt Engineering (Zero-shot, Few-shot) 及 API 调用方式
-* 了解 Chain-of-Thought 等大模型推理机制
 
 **参考资料**：
 * [Happy-LLM (Datawhale)](https://datawhalechina.github.io/happy-llm/)
