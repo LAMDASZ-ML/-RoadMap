@@ -4,6 +4,11 @@
 
 * **课题组负责人**：[郭兰哲](https://www.lamda.nju.edu.cn/guolz/) (南京大学智能科学与技术学院，准聘助理教授，博士生导师)
 * **研究方向**：神经符号学习 (Neuro-Symbolic Learning)、大模型推理 (LLM Reasoning)、智能体 (Agent)
+* **具体包括**：
+- **LLM / MLLM Reasoning**: Constructing high-quality reasoning data; post-training algorithms (SFT, RL); tool-augmented reasoning, and agentic reasoning frameworks. These techniques are applied to mathematical reasoning, medical reasoning, legal reasoning, remote sensing interpretation, and other related domains.
+- **Agent in Digital World**: Building autonomous agents that operate in digital environments, navigating web interfaces, manipulating software tools, writing code, and orchestrating complex tool-use workflows.
+- **Agent in Physical World**: Building embodied agents and game agents that perceive, reason, and act in physical or simulated 3D environments. Key challenges include long-horizon task planning, spatial reasoning, multi-agent coordination, and sim-to-real transfer.
+- **LLMs for Open Problems**: Exploring the frontier of using LLMs as reasoning engines for unsolved problems in mathematics and natural sciences, including automated theorem proving, symbolic regression, scientific discovery, and augmenting human researchers with AI-driven conjecture and verification loops.
 * **招生对象**：直博生、硕士生、科研实习生（支持 Remote）
 * **联系方式**：欢迎感兴趣的同学联系 [guolz@nju.edu.cn](mailto:guolz@nju.edu.cn)。
     * *邮件标题建议注明*：`[科研实习/保研/直博申请] 姓名-学校-年级-专业`
