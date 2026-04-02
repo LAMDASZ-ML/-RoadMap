@@ -70,7 +70,7 @@
 **学习目标**：
 * 掌握基础的Prompt Engineering (Zero-shot, Few-shot, etc) 及 API 调用方式
 * 掌握Chain-of-Thought等大模型推理机制
-* 掌握SFT、DPO、GRPO等提升基座模型推理能力的后训练方式
+* 掌握SFT、PPO、DPO、GRPO等提升基座模型推理能力的后训练方式
 * 了解GSM8K、MATH等常用的benchmark
   
 **参考资料**：
@@ -93,10 +93,9 @@
 * [《从零开始构建智能体》](https://github.com/datawhalechina/hello-agents/tree/main) --偏工程视角
 
 
-**一阶段需要学到什么程度？**
-**答：**
-**1. 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果**
-**2. 能够基于ReaAct实现一个包含工具调用Agent框架**
+**一阶段需要学到什么程度？答：**
+* 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果
+* 能够基于ReaAct实现一个包含工具调用Agent框架
 
 ---
 
