@@ -5,10 +5,10 @@
 * **课题组负责人**：[郭兰哲](https://www.lamda.nju.edu.cn/guolz/) (南京大学智能科学与技术学院，准聘助理教授，博士生导师)
 * **研究方向**：神经符号学习 (Neuro-Symbolic Learning)、大模型推理 (LLM Reasoning)、智能体 (Agent)
 * **具体包括**：
-- **LLM / MLLM Reasoning**: Constructing high-quality reasoning data; post-training algorithms (SFT, RL); tool-augmented reasoning, and agentic reasoning frameworks. These techniques are applied to mathematical reasoning, medical reasoning, legal reasoning, remote sensing interpretation, and other related domains.
-- **Agent in Digital World**: Building autonomous agents that operate in digital environments, navigating web interfaces, manipulating software tools, writing code, and orchestrating complex tool-use workflows.
-- **Agent in Physical World**: Building embodied agents and game agents that perceive, reason, and act in physical or simulated 3D environments. Key challenges include long-horizon task planning, spatial reasoning, multi-agent coordination, and sim-to-real transfer.
-- **LLMs for Open Problems**: Exploring the frontier of using LLMs as reasoning engines for unsolved problems in mathematics and natural sciences, including automated theorem proving, symbolic regression, scientific discovery, and augmenting human researchers with AI-driven conjecture and verification loops.
+- **LLM / MLLM Reasoning**:  研究高质量推理数据自动构建；有监督微调(SFT)、强化学习微调(RLFT)、Agentic Reasoning等大模型后训练算法；上下文工程、测试时采样等大模型推理时优化算法等，提升大模型推理能力并应用至数学、司法、遥感、医疗等垂直领域。
+- **Agent in Digital World**: 构建能够在网页、操作系统等数字环境中运行，通过调用工具、软件、API等完成用户任务需求的的自主智能体。
+- **Agent in Physical World**: 构建能够在虚拟游戏环境（例如Minecraft等）以及在真实物理环境中感知、推理和行动的游戏智能体和具身智能体，主要挑战在于长程任务规划、物理约束满足、空间推理能力、多智能体协调以及虚拟到现实的迁移等。
+- **AI for Open Problems**: 探索基于大模型与智能体协助人类解决科学研究中的Open Problems，包括自动定理证明、自动算法设计、符号回归、科学发现等。
 * **招生对象**：直博生、硕士生、科研实习生（支持 Remote）
 * **联系方式**：欢迎感兴趣的同学联系 [guolz@nju.edu.cn](mailto:guolz@nju.edu.cn)。
     * *邮件标题建议注明*：`[科研实习/保研/直博申请] 姓名-学校-年级-专业`
@@ -17,7 +17,7 @@
 
 本学习大纲面向从 0 到 1 入门的本科生，目标是在 **6-8 周** 内，帮助同学建立对课题组研究方向的整体认知、核心技术理解与基础科研能力，为后续参与真实科研项目打下基础。
 
-* **基础夯实**：了解人工智能与大模型基础知识，能够自主检索并读懂前沿论文与代码。
+* **基础夯实**：了解人工智能、大模型、智能体基础知识，能够自主检索并读懂前沿论文与代码。
 * **领域认知**：理解什么是大模型/多模态推理、LLM Agent、Neuro-Symbolic Learning。
 * **科研素养**：具备“提出问题 -> 文献检索 -> 代码复现 -> 实验分析”的完整科研闭环能力。
 
@@ -26,8 +26,10 @@
 ### 阶段 1：人工智能与大模型基础（进组考核内容）
 
 > **说明**：此阶段为“准入资格”学习。在正式加入课题组参与科研实习之前，你应当具备人工智能、大模型的基础知识。你可以参照下面的大纲，结合提供的参考资料，或者网上其他优质资料进行学习
->
-> 如果你认为自己已具备相关能力，便可约时间进行入组考核
+> **预备工作**：
+> 1. 阅读[《如何做研究与写论文》](https://www.lamda.nju.edu.cn/guolz/IntroAI/sp2026/readings/research.pdf)</a>，了解人工智能领域科研的基本流程“Topic -> Problem -> Idea -> Concrete Work”
+> 2. 请自行搜索，了解什么是arXiv、HuggingFace、Google Scholar、DBLP
+> 3. 了解ICML、NeurIPS、ICLR、ACL等人工智能顶级会议，具备根据某个topic检索相关论文的能力
 
 #### 1. 神经网络与深度学习基础
 
@@ -63,10 +65,10 @@
 * 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
 
 
-#### 4. 大模型推理
+#### 4. 大模型/多模态推理(LLM/MLLM Reasoning)
 
 **学习目标**：
-* 掌握基础的 Prompt Engineering (Zero-shot, Few-shot, etc) 及 API 调用方式
+* 掌握基础的Prompt Engineering (Zero-shot, Few-shot, etc) 及 API 调用方式
 * 掌握Chain-of-Thought等大模型推理机制
 * 掌握SFT、DPO、GRPO等提升基座模型推理能力的后训练方式
 * 了解GSM8K、MATH等常用的benchmark
@@ -78,20 +80,35 @@
 * [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/abs/2501.17161)
 
 
+#### 5. 智能体(Agent)
+
+**学习目标**：
+* 理解大模型Agent的基本概念与核心架构，能够区分Agent与普通对话型LLM的差异
+* 掌握ReAct等基础Agent框架的原理与实现
+* 了解Agent的记忆机制与规划方法
+* 了解大模型Agent背景下，Mutli-Agent系统的基本概念
+  
+**参考资料**：
+* [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) --经典必读
+* [《从零开始构建智能体》](https://github.com/datawhalechina/hello-agents/tree/main) --偏工程视角
+
+
+**一阶段需要学到什么程度？**
+**答：**
+**1. 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果**
+**2. 能够基于ReaAct实现一个包含工具调用Agent框架**
+
 ---
 
 **考核方式**：
-完成上述基础知识学习之后，可以约时间进行交流（线下或线上会议），无需准备 PPT 等材料，交流方式为面试提问。主要围绕基础概念的理解，不会过多关注算法细节的记忆，通过后即可作为科研实习生加入课题组
+完成上述基础知识学习之后，可以约时间进行交流（线下或线上会议），无需准备PPT等材料，交流方式为面试提问，通过后即可作为科研实习生加入课题组.
+主要围绕基础概念的理解，不会过多关注算法细节的记忆.
 
 ---
 
 ### 阶段 2：文献阅读与代码实践（科研入门培训）
 
 > **说明**：进入此阶段，你已经正式开始科研训练。本阶段重点在于论文调研、阅读、复现与思考
-
-**预备工作**：
-1.  请自行搜索，了解什么是 arXiv, HuggingFace, Google Scholar, DBLP
-2.  了解 ICML, NeurIPS, ICLR 等人工智能顶级会议, 具备根据某个 topic 检索相关论文的能力
 
 **核心流程**：
 1.  **了解方向**：了解本组的主要科研方向（Neuro-Symbolic Learning，LLM Reasoning，Agent）。
@@ -114,7 +131,8 @@
     * [Agent AI: Surveying the Horizons of Multi-Modal Interaction](https://arxiv.org/pdf/2401.03568)
     * [A Survey on Agentic Multi-Modal Large Language Models](https://arxiv.org/pdf/2510.10991)
     * [Agentic Reasoning for Large Language Models](https://arxiv.org/abs/2601.12538)
-    * [《从零开始构建智能体》](https://github.com/datawhalechina/hello-agents/tree/main)
+* **符号回归 (Symbolic Regression)**
+    * Tutorial: [https://symbolicregression2025.github.io/](https://symbolicregression2025.github.io/)
 
 #### 选题实战（任选其一）
 
@@ -130,6 +148,7 @@
 ---
 
 #### 方向 1：大模型逻辑推理
+LLM很擅长“看起来有道理但实际错误的回答”，在需要严格逻辑推导的任务上容易出错，本方向的主要目标是提升大模型严谨的逻辑推理能力。如果你对数理逻辑、形式化方法感兴趣，或者喜欢一步步推导结论的严谨感，可以关注这个方向。
 * [Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://arxiv.org/abs/2305.12295)
 * [Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/pdf/2405.18357)
 * [VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks](https://arxiv.org/abs/2511.04662)
@@ -140,19 +159,22 @@
 > 目标：体会结合形式化语言与求解器提升LLM逻辑推理能力的思想
 
 #### 方向 2：数学、几何推理
+数学推理是检验LLM推理能力的经典战场，从小学应用题到IMO竞赛题，模型的表现差异巨大。本方向主要目标是提升大模型的数学推理能力，其中涉及到的算法思路也可以迁移到司法、医疗等其他垂直领域场景。如果你对数学、或者垂域大模型训练感兴趣，可以关注这个方向。
 * [Neuro-Symbolic Data Generation for Math Reasoning](https://arxiv.org/abs/2412.04857)
-* [NeSyGeo: A Neuro-Symbolic Framework for Multimodal Geometric Reasoning Data Generation](https://arxiv.org/abs/2505.17121)(一作是智科院 2023 级本科生，大二期间完成)
+* [NeSyGeo: A Neuro-Symbolic Framework for Multimodal Geometric Reasoning Data Generation](https://arxiv.org/abs/2505.17121) (一作是智科院 2023 级本科生，大二期间完成)
 
 > **🎯 实践任务**：
 > 
-> 基于 SFT 或 GRPO 算法微调一个开源大语言模型或者多模态大模型（例如 Qwen-Math 系列），在一个数学推理数据集（例如 GSM8K、MATH、MathVista 等）进行评测，分析微调前后模型的性能变化
+> 复现上述论文数据合成的方法，并基于SFT或GRPO算法微调一个开源大语言模型或者多模态大模型，在一个数学推理数据集（例如GSM8K、MATH、MathVista、WeMath等）进行评测，分析合成数据与训练算法对模型推理性能的影响
 > 
 > 目标：体会SFT与RL作为两种常用post-training范式的区别，并学会使用两种方式提升base model推理能力；SFT为必选任务，GRPO如果跑不起来，可以只掌握原理/代码实现
 
 #### 方向 3：视觉图像推理
-* [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/pdf/2211.11559)
+给定一幅图像和对应的问题，如何完成相应的推理任务？人类在处理图像推理时会在脑海里思考，例如“画辅助线”、“放大局部”等，但现有的多模态大模型只能被动地看一眼图片然后回答，这个方向探索如何让模型在推理过程中主动生成、修改和利用中间图像，实现边想边看。
 * [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/abs/2505.14362)
 * [Thyme: Think Beyond Images](https://arxiv.org/abs/2508.11630)
+* [TIR-Bench: A Comprehensive Benchmark for Agentic Thinking-with-Images Reasoning](https://arxiv.org/abs/2511.01833)
+* [WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent](https://arxiv.org/abs/2508.05748)
 * [Thinking with Images for Multi-Modal Reasoning: Foundations, Methods, and Future Frontiers](https://arxiv.org/pdf/2506.23918)
 
 > **🎯 实践任务**：
@@ -162,6 +184,7 @@
 > 目标：体会think with images这一方向的主要研究问题和常见范式；如果算力不允许可以优先选择Training-Free的方法
 
 #### 方向 4：抽象视觉推理
+ARC-AGI-Challenge是一个专门设计来测试AI泛化能力的视觉谜题，每道题会给你若干个输入输出的图案样例，需要归纳出背后的抽象规则，并预测新的输入。这是一个难度很高的谜题，被认为是实现AGI的重要挑战。基于该数据集，每年都会举办奖金超过100万美元的比赛。
 * [ARC Challenge](https://arcprize.org/)
 * [NSA: Neuro-symbolic ARC Challenge](https://arxiv.org/abs/2501.04424)
 
@@ -172,6 +195,7 @@
 > 目标：了解ARC Challenge这一任务，熟悉已有的方法范式
 
 #### 方向 5：Travel Agent (Tool-Use & Planning)
+给定一个复杂的用户旅行需求，例如，“预算5000元，从南京出发，三天游云南，需要满足xxx偏好”，如何让Agent自动调用工具、查询信息、并生成一个满足约束的合理方案？这个方向的核心挑战在于如何让LLM真正可靠的完成复杂的约束满足和规划任务，比较贴近实际应用场景。
 * [TravelPlanner: A Benchmark for Real-World Planning with Language Agents](https://arxiv.org/abs/2402.01622?)
 * [ChinaTravel: An Open-Ended Benchmark for Language Agents in Chinese Travel Planning](https://arxiv.org/pdf/2412.13682)
 * [Mind the Gap to Trustworthy LLM Agents: A Systematic Evaluation on Constraint Satisfaction for Real-World Travel Planning](https://openreview.net/pdf?id=SXKIaWTe4N) (**AAAI 2026 Trust Agent Workshop Best Student Paper, 前两位作者均为智科院本科生**)
@@ -183,6 +207,7 @@
 > 目标：体会Travel Planning这一任务的关键挑战（约束可满足的复杂规划能力）以及潜在解决方案
 
 #### 方向 6：Game/Embodied Agent
+这个方向尝试探索让Agent在模拟或真实的环境中行动，比如在Minecraft中自主探索、采矿、建造，或者在家居场景中，让机器人完成具身任务，这里的挑战在于环境是动态的、反馈是稀疏的、任务是长程的，Agent需要具备记忆、技能积累和自我反思的能力。如果你对游戏智能体、具身智能体感兴趣，这个方向会比较有意思。
 * [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
 * [WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](https://arxiv.org/pdf/2504.15785)
 * [InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning](https://openreview.net/pdf?id=nzwjvpCO4F)
@@ -199,6 +224,7 @@
 > 目标：了解Agent Skill、Agent Memory等相关内容，熟悉相关的benchmark
 
 #### 方向 7：Symbolic Regression
+给你一批科学家的观测数据，能否发现背后隐藏的科学规律？比如从物理实验数据中自动发现牛顿定律，这就是符号回归的目标。传统方法依赖演化计算等搜索策略，而近年来LLM的引入带来了新的思路，如果你对AI4Science感兴趣，这个方向值得关注。
 * Tutorial: https://symbolicregression2025.github.io/
 
 > **🎯 实践任务**：
