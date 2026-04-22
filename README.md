@@ -31,6 +31,14 @@
 > 2. 请自行搜索，了解什么是arXiv、HuggingFace、Google Scholar、DBLP
 > 3. 了解ICML、NeurIPS、ICLR、ACL等人工智能顶级会议，具备根据某个topic检索相关论文的能力
 
+
+<b><font color=blue> 一阶段需要学到什么程度？
+答：1. 了解如何通过SFT+GRPO提升基座模型推理能力
+2. 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果
+3. 能够基于ReaAct实现一个包含工具调用Agent框架</font>
+<b>
+
+
 #### 1. 神经网络与深度学习基础
 
 **学习目标**：
@@ -38,7 +46,7 @@
 * 掌握 CNN/ResNet、RNN 等机器学习基础模型架构
 * 掌握 Pytorch 核心组件的使用，例如 Dataloader、损失函数、模型搭建、优化器等
 
-**参考资料**：
+**参考资料**：(仅作为学习的参考，不是要完全读完)
 * [动手学深度学习](https://zh.d2l.ai/)
 * [Neural Networks: Zero to Hero (Andrej Karpathy)](https://karpathy.ai/zero-to-hero.html)
 * [PyTorch Tutorial](https://pytorch.org/tutorials/)
