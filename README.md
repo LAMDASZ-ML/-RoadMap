@@ -3,12 +3,7 @@
 ### 前言
 
 * **课题组负责人**：[郭兰哲](https://www.lamda.nju.edu.cn/guolz/) (南京大学智能科学与技术学院，准聘助理教授，博士生导师)
-* **研究方向**：神经符号学习 (Neuro-Symbolic Learning)、大模型推理 (LLM Reasoning)、智能体 (Agent)
-* **具体包括**：
-- **LLM / MLLM Reasoning**:  研究高质量推理数据自动构建；有监督微调(SFT)、强化学习微调(RLFT)、Agentic Reasoning等大模型后训练算法；上下文工程、测试时采样等大模型推理时优化算法等，提升大模型推理能力并应用至数学、司法、遥感、医疗等垂直领域。
-- **Agent in Digital World**: 构建能够在网页、操作系统等数字环境中运行，通过调用工具、软件、API等完成用户任务需求的的自主智能体。
-- **Agent in Physical World**: 构建能够在虚拟游戏环境（例如Minecraft等）以及在真实物理环境中感知、推理和行动的游戏智能体和具身智能体，主要挑战在于长程任务规划、物理约束满足、空间推理能力、多智能体协调以及虚拟到现实的迁移等。
-- **AI for Open Problems**: 探索基于大模型与智能体协助人类解决科学研究中的Open Problems，包括自动定理证明、自动算法设计、符号回归、科学发现等。
+* **研究方向**：Neuro-Symbolic Learning、LLM/MLLM Reasoning & Planning、Agent in Digital and Physical World、AI for Open Problems
 * **招生对象**：直博生、硕士生、科研实习生（支持 Remote）
 * **联系方式**：欢迎感兴趣的同学联系 [guolz@nju.edu.cn](mailto:guolz@nju.edu.cn)。
     * *邮件标题建议注明*：`[科研实习/保研/直博申请] 姓名-学校-年级-专业`
@@ -18,25 +13,19 @@
 本学习大纲面向从 0 到 1 入门的本科生，目标是在 **6-8 周** 内，帮助同学建立对课题组研究方向的整体认知、核心技术理解与基础科研能力，为后续参与真实科研项目打下基础。
 
 * **基础夯实**：了解人工智能、大模型、智能体基础知识，能够自主检索并读懂前沿论文与代码。
-* **领域认知**：理解什么是大模型/多模态推理、LLM Agent、Neuro-Symbolic Learning。
+* **领域认知**：理解什么是大模型/多模态推理、AI Agent、Neuro-Symbolic Learning。
 * **科研素养**：具备“提出问题 -> 文献检索 -> 代码复现 -> 实验分析”的完整科研闭环能力。
+
+> **说明**：在申请进组之前，你应当具备一定的机器学习、大模型、智能体基础知识，自测标准：
+> 1. 了解提升大模型推理能力的常用后训练算法：如SFT、GRPO
+> 2. 能够加载某个开源大模型或者调用闭源大模型API，在某个评测数据上完成性能评估
+> 3. 了解智能体基础知识，能够基于ReAct实现一个简单工具调用的Agent
+
+**如果你觉得自己能力已经达标，便可通过邮件约时间进行交流（线下或线上会议），无需准备PPT等材料，交流方式为面试提问，通过后即可作为科研实习生加入课题组；如果你觉得自己还没有掌握相应知识，可以参考如下提供的学习资料进行学习**
 
 ---
 
-### 阶段 1：人工智能与大模型基础（进组考核内容）
-
-> **说明**：此阶段为“准入资格”学习。在正式加入课题组参与科研实习之前，你应当具备人工智能、大模型的基础知识。你可以参照下面的大纲，结合提供的参考资料，或者网上其他优质资料进行学习
-> **预备工作**：
-> 1. 阅读[《如何做研究与写论文》](https://www.lamda.nju.edu.cn/guolz/IntroAI/sp2026/readings/research.pdf)</a>，了解人工智能领域科研的基本流程“Topic -> Problem -> Idea -> Concrete Work”
-> 2. 请自行搜索，了解什么是arXiv、HuggingFace、Google Scholar、DBLP
-> 3. 了解ICML、NeurIPS、ICLR、ACL等人工智能顶级会议，具备根据某个topic检索相关论文的能力
-
-
-<b><font color=blue> 一阶段需要学到什么程度？
-答：1. 了解如何通过SFT+GRPO提升基座模型推理能力
-2. 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果
-3. 能够基于ReaAct实现一个包含工具调用Agent框架</font>
-<b>
+### 学习资料：人工智能与大模型基础
 
 
 #### 1. 神经网络与深度学习基础
@@ -67,11 +56,10 @@
 * 了解 LLaVA、Qwen-VL 系列等前沿多模态大模型
 
 **参考资料**：
+* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
 * [ViT 论文](https://arxiv.org/abs/2010.11929) | [代码库](https://github.com/lucidrains/vit-pytorch)
 * [LLaVA 论文](https://arxiv.org/abs/2304.08485)
 * [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631)
-* 多模态大模型论文串讲：[上](https://www.bilibili.com/video/BV1Vd4y1v77v/?spm_id_from=333.337.search-card.all.click&vd_source=4deb09ae020d1de21482612e7102fb83)，[下](https://www.bilibili.com/video/BV1fA411Z772/?share_source=copy_web&vd_source=b19e968ea4fbdf0cb9dfd7fbc468280e)
-
 
 #### 4. 大模型/多模态推理(LLM/MLLM Reasoning)
 
@@ -101,21 +89,10 @@
 * [《从零开始构建智能体》](https://github.com/datawhalechina/hello-agents/tree/main) --偏工程视角
 
 
-**一阶段需要学到什么程度？答：**
-* 能够加载一个开源模型，在GSM8K数据上完成推理并得到评估结果
-* 能够基于ReaAct实现一个包含工具调用Agent框架
 
----
+### 入门培训：文献阅读与代码实践
 
-**考核方式**：
-完成上述基础知识学习之后，可以约时间进行交流（线下或线上会议），无需准备PPT等材料，交流方式为面试提问，通过后即可作为科研实习生加入课题组.
-主要围绕基础概念的理解，不会过多关注算法细节的记忆.
-
----
-
-### 阶段 2：文献阅读与代码实践（科研入门培训）
-
-> **说明**：进入此阶段，你已经正式开始科研训练。本阶段重点在于论文调研、阅读、复现与思考
+> **说明**：在面试通过后，你便可以正式开始科研训练。本阶段重点在于论文调研、阅读、复现与思考
 
 **核心流程**：
 1.  **了解方向**：了解本组的主要科研方向（Neuro-Symbolic Learning，LLM Reasoning，Agent）。
